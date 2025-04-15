@@ -13,6 +13,6 @@ source vars
 
 mkdir $NAME
 
-touch $NAME\\$FILE
+touch $NAME/$FILE
 
 ls -la
