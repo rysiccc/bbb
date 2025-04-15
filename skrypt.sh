@@ -16,3 +16,5 @@ mkdir $NAME
 touch $NAME/$FILE
 
 ls -la
+
+ls -ld $NAME/
