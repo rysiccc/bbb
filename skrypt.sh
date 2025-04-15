@@ -5,6 +5,7 @@ echo "BUM!"
 echo "creating dir: $1"
 mkdir $1
 pwd
+ls -la
 
 NAME=Kam_Ro
 
@@ -14,4 +15,4 @@ mkdir $NAME
 
 touch $NAME\\$FILE
 
-ls
+ls -la
