@@ -1,20 +1,13 @@
 #!/bin/bash
 
-echo "BUM!"
+echo "script name: $0"
 
-echo "creating dir: $1"
-mkdir $1
-pwd
-ls -la
+echo "all arguments: $*"
 
-NAME=Kam_Ro
+echo "number of arguments: $#"
 
-source vars
+echo "argument 1: $[1]"
+echo "argument 4: $[4]"
 
-mkdir $NAME
-
-touch $NAME/$FILE
-
-ls -la
-
-ls -la $NAME/
+[[ "$1" -eq "$4" ]]
+echo "-eq result: $?"
